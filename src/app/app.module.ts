@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { LayoutComponent } from './components/ui/layout/layout.component';
 import { HeaderComponent } from './components/ui/layout/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LayoutModule } from './components/ui/layout/layout.module';
 
 
 
@@ -14,7 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
-    LayoutComponent,
+
     HeaderComponent
 
   ],
@@ -22,6 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
